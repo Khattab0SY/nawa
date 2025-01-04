@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router";
-import data from "../../json/nawaqd.json";
+import data from "./json/nawaqd.json";
 
 const item = () => {
   const { id } = useParams();
